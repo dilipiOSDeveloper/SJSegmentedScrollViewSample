@@ -1,0 +1,16 @@
+PODS:
+  - SJSegmentedScrollView (1.3.6)
+
+DEPENDENCIES:
+  - SJSegmentedScrollView (= 1.3.6)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SJSegmentedScrollView
+
+SPEC CHECKSUMS:
+  SJSegmentedScrollView: 13eb38fc0a28cc46a3ccc52b4e246df0e2227077
+
+PODFILE CHECKSUM: 4afef8aaf58c19980dbdc4f76aba3321847419e6
+
+COCOAPODS: 1.5.0.beta.1

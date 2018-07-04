@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB0C54416ACA28C64ACDF72 /* Pods_SJSegmentedScrollViewSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644A9AC3E5C849DA8FC6EEB1 /* Pods_SJSegmentedScrollViewSampleTests.framework */; };
+		8E44A2839C9FADB8D94DF32A /* Pods_SJSegmentedScrollViewSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C85110563120EC379B0E4F5 /* Pods_SJSegmentedScrollViewSample.framework */; };
+		EB35D87520EB4230008FC91A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35D87420EB4230008FC91A /* AppDelegate.swift */; };
+		EB35D87720EB4230008FC91A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35D87620EB4230008FC91A /* ViewController.swift */; };
+		EB35D87A20EB4231008FC91A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB35D87820EB4231008FC91A /* Main.storyboard */; };
+		EB35D87C20EB4231008FC91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB35D87B20EB4231008FC91A /* Assets.xcassets */; };
+		EB35D87F20EB4231008FC91A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB35D87D20EB4231008FC91A /* LaunchScreen.storyboard */; };
+		EB35D88A20EB4231008FC91A /* SJSegmentedScrollViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35D88920EB4231008FC91A /* SJSegmentedScrollViewSampleTests.swift */; };
+		EB35D89520EB4231008FC91A /* SJSegmentedScrollViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35D89420EB4231008FC91A /* SJSegmentedScrollViewSampleUITests.swift */; };
+		EB35D8A320EB4C7C008FC91A /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35D8A220EB4C7C008FC91A /* FirstTableViewController.swift */; };
+		EB35D8A520EB4CAF008FC91A /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35D8A420EB4CAF008FC91A /* SecondTableViewController.swift */; };
+		EB35D8A720EB5132008FC91A /* headerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35D8A620EB5132008FC91A /* headerViewController.swift */; };
+		FAC75DF10393AA36E76F56BA /* Pods_SJSegmentedScrollViewSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14F467C0BFD662891D45EA7 /* Pods_SJSegmentedScrollViewSampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB35D88620EB4231008FC91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB35D86920EB4230008FC91A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB35D87020EB4230008FC91A;
+			remoteInfo = SJSegmentedScrollViewSample;
+		};
+		EB35D89120EB4231008FC91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB35D86920EB4230008FC91A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB35D87020EB4230008FC91A;
+			remoteInfo = SJSegmentedScrollViewSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24F3F549F2BC39D5FF5C49FD /* Pods-SJSegmentedScrollViewSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSegmentedScrollViewSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJSegmentedScrollViewSampleUITests/Pods-SJSegmentedScrollViewSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5941B38AA2D6E460BC53FB07 /* Pods-SJSegmentedScrollViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSegmentedScrollViewSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJSegmentedScrollViewSample/Pods-SJSegmentedScrollViewSample.release.xcconfig"; sourceTree = "<group>"; };
+		6376AA64D79D93111D86DF79 /* Pods-SJSegmentedScrollViewSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSegmentedScrollViewSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJSegmentedScrollViewSampleTests/Pods-SJSegmentedScrollViewSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		644A9AC3E5C849DA8FC6EEB1 /* Pods_SJSegmentedScrollViewSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJSegmentedScrollViewSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C85110563120EC379B0E4F5 /* Pods_SJSegmentedScrollViewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJSegmentedScrollViewSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B591C6137137B6521FB035C7 /* Pods-SJSegmentedScrollViewSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSegmentedScrollViewSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJSegmentedScrollViewSampleTests/Pods-SJSegmentedScrollViewSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B86D5B27E5B9C1AC1243DB09 /* Pods-SJSegmentedScrollViewSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSegmentedScrollViewSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJSegmentedScrollViewSampleUITests/Pods-SJSegmentedScrollViewSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D14F467C0BFD662891D45EA7 /* Pods_SJSegmentedScrollViewSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJSegmentedScrollViewSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAE9BACC7083F167CF39C22 /* Pods-SJSegmentedScrollViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSegmentedScrollViewSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJSegmentedScrollViewSample/Pods-SJSegmentedScrollViewSample.debug.xcconfig"; sourceTree = "<group>"; };
+		EB35D87120EB4230008FC91A /* SJSegmentedScrollViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJSegmentedScrollViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB35D87420EB4230008FC91A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB35D87620EB4230008FC91A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB35D87920EB4231008FC91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB35D87B20EB4231008FC91A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB35D87E20EB4231008FC91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB35D88020EB4231008FC91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB35D88520EB4231008FC91A /* SJSegmentedScrollViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJSegmentedScrollViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB35D88920EB4231008FC91A /* SJSegmentedScrollViewSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJSegmentedScrollViewSampleTests.swift; sourceTree = "<group>"; };
+		EB35D88B20EB4231008FC91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB35D89020EB4231008FC91A /* SJSegmentedScrollViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJSegmentedScrollViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB35D89420EB4231008FC91A /* SJSegmentedScrollViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJSegmentedScrollViewSampleUITests.swift; sourceTree = "<group>"; };
+		EB35D89620EB4231008FC91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB35D8A220EB4C7C008FC91A /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		EB35D8A420EB4CAF008FC91A /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		EB35D8A620EB5132008FC91A /* headerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = headerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB35D86E20EB4230008FC91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E44A2839C9FADB8D94DF32A /* Pods_SJSegmentedScrollViewSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35D88220EB4231008FC91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB0C54416ACA28C64ACDF72 /* Pods_SJSegmentedScrollViewSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35D88D20EB4231008FC91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC75DF10393AA36E76F56BA /* Pods_SJSegmentedScrollViewSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101DE4CC8F217F2225346FA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C85110563120EC379B0E4F5 /* Pods_SJSegmentedScrollViewSample.framework */,
+				644A9AC3E5C849DA8FC6EEB1 /* Pods_SJSegmentedScrollViewSampleTests.framework */,
+				D14F467C0BFD662891D45EA7 /* Pods_SJSegmentedScrollViewSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB35D86820EB422F008FC91A = {
+			isa = PBXGroup;
+			children = (
+				EB35D87320EB4230008FC91A /* SJSegmentedScrollViewSample */,
+				EB35D88820EB4231008FC91A /* SJSegmentedScrollViewSampleTests */,
+				EB35D89320EB4231008FC91A /* SJSegmentedScrollViewSampleUITests */,
+				EB35D87220EB4230008FC91A /* Products */,
+				FA8F629EF8C3D4020862FEDD /* Pods */,
+				101DE4CC8F217F2225346FA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB35D87220EB4230008FC91A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB35D87120EB4230008FC91A /* SJSegmentedScrollViewSample.app */,
+				EB35D88520EB4231008FC91A /* SJSegmentedScrollViewSampleTests.xctest */,
+				EB35D89020EB4231008FC91A /* SJSegmentedScrollViewSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB35D87320EB4230008FC91A /* SJSegmentedScrollViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				EB35D87420EB4230008FC91A /* AppDelegate.swift */,
+				EB35D8A620EB5132008FC91A /* headerViewController.swift */,
+				EB35D8A220EB4C7C008FC91A /* FirstTableViewController.swift */,
+				EB35D8A420EB4CAF008FC91A /* SecondTableViewController.swift */,
+				EB35D87620EB4230008FC91A /* ViewController.swift */,
+				EB35D87820EB4231008FC91A /* Main.storyboard */,
+				EB35D87B20EB4231008FC91A /* Assets.xcassets */,
+				EB35D87D20EB4231008FC91A /* LaunchScreen.storyboard */,
+				EB35D88020EB4231008FC91A /* Info.plist */,
+			);
+			path = SJSegmentedScrollViewSample;
+			sourceTree = "<group>";
+		};
+		EB35D88820EB4231008FC91A /* SJSegmentedScrollViewSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB35D88920EB4231008FC91A /* SJSegmentedScrollViewSampleTests.swift */,
+				EB35D88B20EB4231008FC91A /* Info.plist */,
+			);
+			path = SJSegmentedScrollViewSampleTests;
+			sourceTree = "<group>";
+		};
+		EB35D89320EB4231008FC91A /* SJSegmentedScrollViewSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB35D89420EB4231008FC91A /* SJSegmentedScrollViewSampleUITests.swift */,
+				EB35D89620EB4231008FC91A /* Info.plist */,
+			);
+			path = SJSegmentedScrollViewSampleUITests;
+			sourceTree = "<group>";
+		};
+		FA8F629EF8C3D4020862FEDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDAE9BACC7083F167CF39C22 /* Pods-SJSegmentedScrollViewSample.debug.xcconfig */,
+				5941B38AA2D6E460BC53FB07 /* Pods-SJSegmentedScrollViewSample.release.xcconfig */,
+				6376AA64D79D93111D86DF79 /* Pods-SJSegmentedScrollViewSampleTests.debug.xcconfig */,
+				B591C6137137B6521FB035C7 /* Pods-SJSegmentedScrollViewSampleTests.release.xcconfig */,
+				24F3F549F2BC39D5FF5C49FD /* Pods-SJSegmentedScrollViewSampleUITests.debug.xcconfig */,
+				B86D5B27E5B9C1AC1243DB09 /* Pods-SJSegmentedScrollViewSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB35D87020EB4230008FC91A /* SJSegmentedScrollViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB35D89920EB4231008FC91A /* Build configuration list for PBXNativeTarget "SJSegmentedScrollViewSample" */;
+			buildPhases = (
+				03E5216863E4B5B55245D3D8 /* [CP] Check Pods Manifest.lock */,
+				EB35D86D20EB4230008FC91A /* Sources */,
+				EB35D86E20EB4230008FC91A /* Frameworks */,
+				EB35D86F20EB4230008FC91A /* Resources */,
+				87D2886DB5E567F46E8ABF26 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJSegmentedScrollViewSample;
+			productName = SJSegmentedScrollViewSample;
+			productReference = EB35D87120EB4230008FC91A /* SJSegmentedScrollViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB35D88420EB4231008FC91A /* SJSegmentedScrollViewSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB35D89C20EB4231008FC91A /* Build configuration list for PBXNativeTarget "SJSegmentedScrollViewSampleTests" */;
+			buildPhases = (
+				5BFE5204120C3BE7812F4403 /* [CP] Check Pods Manifest.lock */,
+				EB35D88120EB4231008FC91A /* Sources */,
+				EB35D88220EB4231008FC91A /* Frameworks */,
+				EB35D88320EB4231008FC91A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB35D88720EB4231008FC91A /* PBXTargetDependency */,
+			);
+			name = SJSegmentedScrollViewSampleTests;
+			productName = SJSegmentedScrollViewSampleTests;
+			productReference = EB35D88520EB4231008FC91A /* SJSegmentedScrollViewSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB35D88F20EB4231008FC91A /* SJSegmentedScrollViewSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB35D89F20EB4231008FC91A /* Build configuration list for PBXNativeTarget "SJSegmentedScrollViewSampleUITests" */;
+			buildPhases = (
+				940992A0D87BF81EDB5B2BE8 /* [CP] Check Pods Manifest.lock */,
+				EB35D88C20EB4231008FC91A /* Sources */,
+				EB35D88D20EB4231008FC91A /* Frameworks */,
+				EB35D88E20EB4231008FC91A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB35D89220EB4231008FC91A /* PBXTargetDependency */,
+			);
+			name = SJSegmentedScrollViewSampleUITests;
+			productName = SJSegmentedScrollViewSampleUITests;
+			productReference = EB35D89020EB4231008FC91A /* SJSegmentedScrollViewSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB35D86920EB4230008FC91A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vikas Pundora";
+				TargetAttributes = {
+					EB35D87020EB4230008FC91A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+					EB35D88420EB4231008FC91A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB35D87020EB4230008FC91A;
+					};
+					EB35D88F20EB4231008FC91A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB35D87020EB4230008FC91A;
+					};
+				};
+			};
+			buildConfigurationList = EB35D86C20EB4230008FC91A /* Build configuration list for PBXProject "SJSegmentedScrollViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB35D86820EB422F008FC91A;
+			productRefGroup = EB35D87220EB4230008FC91A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB35D87020EB4230008FC91A /* SJSegmentedScrollViewSample */,
+				EB35D88420EB4231008FC91A /* SJSegmentedScrollViewSampleTests */,
+				EB35D88F20EB4231008FC91A /* SJSegmentedScrollViewSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB35D86F20EB4230008FC91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB35D87F20EB4231008FC91A /* LaunchScreen.storyboard in Resources */,
+				EB35D87C20EB4231008FC91A /* Assets.xcassets in Resources */,
+				EB35D87A20EB4231008FC91A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35D88320EB4231008FC91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35D88E20EB4231008FC91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E5216863E4B5B55245D3D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SJSegmentedScrollViewSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BFE5204120C3BE7812F4403 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SJSegmentedScrollViewSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87D2886DB5E567F46E8ABF26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SJSegmentedScrollViewSample/Pods-SJSegmentedScrollViewSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SJSegmentedScrollView/SJSegmentedScrollView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SJSegmentedScrollView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJSegmentedScrollViewSample/Pods-SJSegmentedScrollViewSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		940992A0D87BF81EDB5B2BE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SJSegmentedScrollViewSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB35D86D20EB4230008FC91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB35D87720EB4230008FC91A /* ViewController.swift in Sources */,
+				EB35D8A520EB4CAF008FC91A /* SecondTableViewController.swift in Sources */,
+				EB35D87520EB4230008FC91A /* AppDelegate.swift in Sources */,
+				EB35D8A720EB5132008FC91A /* headerViewController.swift in Sources */,
+				EB35D8A320EB4C7C008FC91A /* FirstTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35D88120EB4231008FC91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB35D88A20EB4231008FC91A /* SJSegmentedScrollViewSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB35D88C20EB4231008FC91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB35D89520EB4231008FC91A /* SJSegmentedScrollViewSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB35D88720EB4231008FC91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB35D87020EB4230008FC91A /* SJSegmentedScrollViewSample */;
+			targetProxy = EB35D88620EB4231008FC91A /* PBXContainerItemProxy */;
+		};
+		EB35D89220EB4231008FC91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB35D87020EB4230008FC91A /* SJSegmentedScrollViewSample */;
+			targetProxy = EB35D89120EB4231008FC91A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB35D87820EB4231008FC91A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB35D87920EB4231008FC91A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB35D87D20EB4231008FC91A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB35D87E20EB4231008FC91A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB35D89720EB4231008FC91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB35D89820EB4231008FC91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB35D89A20EB4231008FC91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAE9BACC7083F167CF39C22 /* Pods-SJSegmentedScrollViewSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SJSegmentedScrollViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phpyouth.com.SJSegmentedScrollViewSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB35D89B20EB4231008FC91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5941B38AA2D6E460BC53FB07 /* Pods-SJSegmentedScrollViewSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SJSegmentedScrollViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phpyouth.com.SJSegmentedScrollViewSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EB35D89D20EB4231008FC91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6376AA64D79D93111D86DF79 /* Pods-SJSegmentedScrollViewSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SJSegmentedScrollViewSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phpyouth.com.SJSegmentedScrollViewSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJSegmentedScrollViewSample.app/SJSegmentedScrollViewSample";
+			};
+			name = Debug;
+		};
+		EB35D89E20EB4231008FC91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B591C6137137B6521FB035C7 /* Pods-SJSegmentedScrollViewSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SJSegmentedScrollViewSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phpyouth.com.SJSegmentedScrollViewSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJSegmentedScrollViewSample.app/SJSegmentedScrollViewSample";
+			};
+			name = Release;
+		};
+		EB35D8A020EB4231008FC91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F3F549F2BC39D5FF5C49FD /* Pods-SJSegmentedScrollViewSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SJSegmentedScrollViewSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phpyouth.com.SJSegmentedScrollViewSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SJSegmentedScrollViewSample;
+			};
+			name = Debug;
+		};
+		EB35D8A120EB4231008FC91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86D5B27E5B9C1AC1243DB09 /* Pods-SJSegmentedScrollViewSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SJSegmentedScrollViewSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phpyouth.com.SJSegmentedScrollViewSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SJSegmentedScrollViewSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB35D86C20EB4230008FC91A /* Build configuration list for PBXProject "SJSegmentedScrollViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB35D89720EB4231008FC91A /* Debug */,
+				EB35D89820EB4231008FC91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB35D89920EB4231008FC91A /* Build configuration list for PBXNativeTarget "SJSegmentedScrollViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB35D89A20EB4231008FC91A /* Debug */,
+				EB35D89B20EB4231008FC91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB35D89C20EB4231008FC91A /* Build configuration list for PBXNativeTarget "SJSegmentedScrollViewSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB35D89D20EB4231008FC91A /* Debug */,
+				EB35D89E20EB4231008FC91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB35D89F20EB4231008FC91A /* Build configuration list for PBXNativeTarget "SJSegmentedScrollViewSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB35D8A020EB4231008FC91A /* Debug */,
+				EB35D8A120EB4231008FC91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB35D86920EB4230008FC91A /* Project object */;
+}

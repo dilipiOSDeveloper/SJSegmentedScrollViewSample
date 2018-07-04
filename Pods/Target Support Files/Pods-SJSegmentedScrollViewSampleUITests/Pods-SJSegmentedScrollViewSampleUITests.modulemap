@@ -1,0 +1,6 @@
+framework module Pods_SJSegmentedScrollViewSampleUITests {
+  umbrella header "Pods-SJSegmentedScrollViewSampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

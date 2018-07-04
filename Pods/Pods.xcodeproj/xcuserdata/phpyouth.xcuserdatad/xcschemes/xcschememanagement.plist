@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-SJSegmentedScrollViewSample.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SJSegmentedScrollViewSampleTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SJSegmentedScrollViewSampleUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SJSegmentedScrollView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>145C775EC58DBA12EE98A2FF68F7FB67</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62FB47D821D4B8A7628FA534D0EC1B00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD90C0F4B14AC1B848D13AFB73283BC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF648D0F77271C4E193C040276BEA711</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
