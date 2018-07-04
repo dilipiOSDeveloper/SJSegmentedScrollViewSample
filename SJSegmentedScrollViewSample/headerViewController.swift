@@ -2,9 +2,6 @@
 //  headerViewController.swift
 //  SJSegmentedScrollViewSample
 //
-//  Created by Vikas Pundora on 03/07/18.
-//  Copyright © 2018 Vikas Pundora. All rights reserved.
-//
 
 import UIKit
 
