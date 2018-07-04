@@ -23,6 +23,7 @@ class ViewController: SJSegmentedViewController {
                 .instantiateViewController(withIdentifier: "SecondViewController")
             secondViewController.title = "Memes"
             
+        
             //headerViewController = headerController
             segmentControllers = [firstViewController,
                                   secondViewController]
